@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{177b8d12-00f7-44af-8471-cd848795fda4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ejercicios">
+      <UniqueIdentifier>{3cab2727-d217-40d7-8396-66ca11282cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pruebas">
+      <UniqueIdentifier>{c0c9784d-fab1-4e30-8d84-b3ad38f9e47e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Pruebas Aux">
+      <UniqueIdentifier>{1baf329c-7efe-417f-bc32-bd9863b06ee2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Principal.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="EjerciciosSem1.cpp">
+      <Filter>Ejercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasSem1.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasAuxSem1.cpp">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasPropias.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasAuxDefensa.cpp">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="EjerciciosSem2.cpp">
+      <Filter>Ejercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="EjerciciosSem3.cpp">
+      <Filter>Ejercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="EjerciciosSem4.cpp">
+      <Filter>Ejercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="EjerciciosSem5.cpp">
+      <Filter>Ejercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="EjerciciosSem6.cpp">
+      <Filter>Ejercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="EjerciciosSem7.cpp">
+      <Filter>Ejercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="EjerciciosSem8.cpp">
+      <Filter>Ejercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="EjerciciosSem9.cpp">
+      <Filter>Ejercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasSem2.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasSem3.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasSem5.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasSem4.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasSem6.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasSem7.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasSem8.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasSem9.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasAuxSem2.cpp">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasAuxSem3.cpp">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasAuxSem4.cpp">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasAuxSem5.cpp">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasAuxSem6.cpp">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasAuxSem7.cpp">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasAuxSem8.cpp">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="ManejadorSalidaPrueba.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasAuxSem9.cpp">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="Pruebas.cpp">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="Defensa.cpp">
+      <Filter>Ejercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasDefensa.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="Cola.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncAux.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EjerciciosSem1.h">
+      <Filter>Ejercicios</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasSem1.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasAuxSem1.h">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasPropias.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasAuxDefensa.h">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="EjerciciosSem2.h">
+      <Filter>Ejercicios</Filter>
+    </ClInclude>
+    <ClInclude Include="EjerciciosSem3.h">
+      <Filter>Ejercicios</Filter>
+    </ClInclude>
+    <ClInclude Include="EjerciciosSem4.h">
+      <Filter>Ejercicios</Filter>
+    </ClInclude>
+    <ClInclude Include="EjerciciosSem5.h">
+      <Filter>Ejercicios</Filter>
+    </ClInclude>
+    <ClInclude Include="EjerciciosSem6.h">
+      <Filter>Ejercicios</Filter>
+    </ClInclude>
+    <ClInclude Include="EjerciciosSem7.h">
+      <Filter>Ejercicios</Filter>
+    </ClInclude>
+    <ClInclude Include="EjerciciosSem8.h">
+      <Filter>Ejercicios</Filter>
+    </ClInclude>
+    <ClInclude Include="EjerciciosSem9.h">
+      <Filter>Ejercicios</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasSem2.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasSem3.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasSem4.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasSem5.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasSem6.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasSem7.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasSem8.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasSem9.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasAuxSem2.h">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasAuxSem3.h">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasAuxSem4.h">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasAuxSem5.h">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasAuxSem6.h">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasAuxSem7.h">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasAuxSem8.h">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasAuxSem9.h">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="ManejadorSalidaPrueba.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Definiciones.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Pruebas.h">
+      <Filter>Framework\Pruebas Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="Defensa.h">
+      <Filter>Ejercicios</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasDefensa.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="Cola.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncAux.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

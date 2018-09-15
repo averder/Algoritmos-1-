@@ -1,0 +1,75 @@
+EJERCICIOS 2 - PRIMERA ENTREGA
+
+1)	Complete la implementación ListaPosImp del TAD ListaPos especificado en el proyecto, 
+	de forma que las operaciones ElementoPpio, ElementoPos, ElementoFin y Largo se realicen en 
+	tiempo de ejecución constante en el peor caso. La implementación no debe ser acotada.
+
+2)	Complete la implementación PilaImp del TAD Pila especificado en el proyecto, 
+	de forma que las operaciones para insertar, eliminar y obtener la cantidad de elementos se 
+	realicen en tiempo de ejecución constante en el peor caso.  La implementación no debe ser acotada.
+
+3)	Complete la implementación ColaImp del TAD Cola especificado en el proyecto, 
+	de forma que las operaciones para insertar, eliminar y obtener la cantidad de elementos se 
+	realicen en tiempo de ejecución constante en el peor caso.  La implementación no debe ser acotada.
+
+4)	Considere la siguiente definición del tipo árbol binario de enteros ordenado (ABB):
+	struct NodoAB { 
+		int dato;
+		NodoAB *izq, *der; 
+	};
+	Implemente una función Enlistar, que recibiendo un puntero a un ABB de tipo NodoAB, 
+	retorne una ListaOrd con los mismos elementos presentes en el árbol. 
+	El árbol parámetro debe recorrerse una única vez.
+
+	ListaOrd<int>* Enlistar(NodoAB* a)
+
+5)	Implemente una función UnionListaOrd que dadas dos listas de tipo ListaOrd: l1 y l2, 
+	retorne una nueva lista ordenada (ListaOrd) que contenga todos los elementos presentes en l1 y l2. 
+	La nueva lista no deberá compartir registros de memoria con las listas parámetros y 
+	las listas parámetro no deberán ser modificadas. 
+	Las listas recibidas y la lista retornada no deben recorrerse más de una vez.
+
+	template <class T>
+	ListaOrd<T>* UnionListaOrd(const ListaOrd<T> *l1, const ListaOrd<T> *l2);
+
+6)	Implemente la función EstaContenida que dadas dos pilas: p1 y p2, de tipo Pila retorne true si y solo 
+	si todos los elementos de p1 se encuentran en p2.
+	Si hay valores repetidos en p1, entonces se tienen que encontrar como mínimo la misma cantidad 
+	de repetidos de ese valor en p2.
+
+	template <class T>
+	bool EstaContenida(const Pila<T> *p1, const Pila<T> *p2)  
+
+7)	Considere la siguiente definición del tipo árbol binario de entero:
+	struct NodoAB { 
+		int dato;
+		NodoAB *izq, *der; 
+	};
+	Implemente un procedimiento iterativo CantidadDeHojas, que recibiendo un puntero a un AB 
+	de tipo NodoAB retorne la cantidad de hojas del AB. 
+	El procedimiento debe 	recorrer una única vez el árbol parámetro. 
+	Se sugiere utilizar el TAD ListaPos, ListaOrd, Pila o Cola como auxiliares
+	para la resolución del problema.  
+
+	int CantidadDeHojas(NodoAB* a)
+
+	Por ejemplo recibiendo el AB {1,2,3,#,4,5,6,7,#,9) se debe retornar 3.
+	Si el AB es vacío retorna 0.
+
+8)	Considere la siguiente definición del tipo árbol binario de entero:
+	struct NodoAB { 
+		int dato;
+		NodoAB *izq, *der; 
+	};
+	Implemente un procedimiento iterativo ImprimirPorNiveles, que recibiendo un puntero a un AB 
+	de tipo NodoAB lo muestre por consola por niveles, de abajo hacia arriba y de derecha a izquierda. 
+	Se deben imprimir los valores separados por un espacio en blanco.
+	El procedimiento puede recorrer como máximo dos veces el árbol parámetro. 
+	Se sugiere usar el TAD Cola y el TAD Pila como auxiliares
+	para la resolución del problema.  
+
+	void ImprimirPorNiveles(NodoAB* a)
+
+	Por ejemplo recibiendo el AB {1,2,3,#,4,5,6,7,#,9) se debe imprimir:
+	9 7 6 5 4 3 2 1
+	Si el AB es vacío no imprime nada.

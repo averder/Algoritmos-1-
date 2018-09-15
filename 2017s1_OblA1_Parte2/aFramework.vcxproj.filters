@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pruebas Unitarias">
+      <UniqueIdentifier>{63bc66a1-9879-4dc8-99cc-f04fc8258905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{b60362ce-e3f2-4e71-bda3-5a2397d971ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Estadistica">
+      <UniqueIdentifier>{dba5f8ed-0482-4f15-b13f-c4a584399376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\InterfazConductor">
+      <UniqueIdentifier>{d81f34db-9a2d-4243-a813-258f38680ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\InterfazPrueba">
+      <UniqueIdentifier>{48033b35-2817-4d3e-85cc-938f60fa325d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Manejadores">
+      <UniqueIdentifier>{a418984a-e519-462f-b26c-47484cf383da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases auxiliares">
+      <UniqueIdentifier>{388253a9-28b9-4744-ba53-c83ed8472429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones">
+      <UniqueIdentifier>{5c0bcf5c-0e28-4675-823b-fff071ccc163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Cola">
+      <UniqueIdentifier>{b89aa542-981f-4ff2-9edc-774959a9d6f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Pila">
+      <UniqueIdentifier>{c632c470-0361-4ea8-b5ac-3a82d27339a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Auxiliar">
+      <UniqueIdentifier>{be339f44-805d-4c7a-bd74-eec1939a4166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entregas">
+      <UniqueIdentifier>{39c985d7-98a0-4dc2-9c02-45ef109f360e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pruebas Unitarias\Framework pruebas">
+      <UniqueIdentifier>{7f41b78b-40e0-483c-942c-b7621b109ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Set">
+      <UniqueIdentifier>{1b61d716-6fbd-47bc-8e7e-7602a0a04185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Tabla">
+      <UniqueIdentifier>{4e1f7a25-ce41-4607-9af0-1299c0d7452b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Diccionario">
+      <UniqueIdentifier>{52722135-dfec-4179-afa6-13464ba677f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\MultiSet">
+      <UniqueIdentifier>{0d122f8a-a8c2-43fe-aebc-246a59747929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\ColaPrioridad">
+      <UniqueIdentifier>{0fcefacd-37e2-4314-95f7-d84ec9dc5b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Listas">
+      <UniqueIdentifier>{70276ed9-703b-4132-ad2d-6c3ffe4c9a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Listas\ListaPos">
+      <UniqueIdentifier>{3ae83bcd-285b-4dfe-bba5-0178791d4f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Listas\ListaOrd">
+      <UniqueIdentifier>{47c1dbf2-1988-411a-b974-c610f2e191f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PruebasCorreccion.cpp">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasPropias.cpp">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClCompile>
+    <ClCompile Include="EstadisticaPrueba.cpp">
+      <Filter>Framework\Estadistica</Filter>
+    </ClCompile>
+    <ClCompile Include="ConductorPrueba.cpp">
+      <Filter>Framework\InterfazConductor</Filter>
+    </ClCompile>
+    <ClCompile Include="Prueba.cpp">
+      <Filter>Framework\InterfazPrueba</Filter>
+    </ClCompile>
+    <ClCompile Include="ManejadorImpresionPrueba.cpp">
+      <Filter>Framework\Manejadores</Filter>
+    </ClCompile>
+    <ClCompile Include="ManejadorSalidaPrueba.cpp">
+      <Filter>Framework\Manejadores</Filter>
+    </ClCompile>
+    <ClCompile Include="Asociacion.cpp">
+      <Filter>Clases auxiliares</Filter>
+    </ClCompile>
+    <ClCompile Include="Cadena.cpp">
+      <Filter>Clases auxiliares</Filter>
+    </ClCompile>
+    <ClCompile Include="Referencia.cpp">
+      <Filter>Clases auxiliares</Filter>
+    </ClCompile>
+    <ClCompile Include="ConductorPruebaObl2.cpp">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ManejadorArchivos.cpp">
+      <Filter>Framework\Manejadores</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncAux.cpp">
+      <Filter>Framework\Auxiliar</Filter>
+    </ClCompile>
+    <ClCompile Include="ColaArray.cpp">
+      <Filter>Framework\Auxiliar</Filter>
+    </ClCompile>
+    <ClCompile Include="Entrega1.cpp">
+      <Filter>Entregas</Filter>
+    </ClCompile>
+    <ClCompile Include="Entrega2.cpp">
+      <Filter>Entregas</Filter>
+    </ClCompile>
+    <ClCompile Include="Defensa.cpp">
+      <Filter>Entregas</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasAuxDefensa.cpp">
+      <Filter>Pruebas Unitarias\Framework pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasAuxEntrega1.cpp">
+      <Filter>Pruebas Unitarias\Framework pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasAuxEntrega2.cpp">
+      <Filter>Pruebas Unitarias\Framework pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="SetImp.cpp">
+      <Filter>Colecciones\Set</Filter>
+    </ClCompile>
+    <ClCompile Include="TablaImp.cpp">
+      <Filter>Colecciones\Tabla</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiSetImp.cpp">
+      <Filter>Colecciones\MultiSet</Filter>
+    </ClCompile>
+    <ClCompile Include="ColaPrioridadImp.cpp">
+      <Filter>Colecciones\ColaPrioridad</Filter>
+    </ClCompile>
+    <ClCompile Include="PilaImp.cpp">
+      <Filter>Colecciones\Pila</Filter>
+    </ClCompile>
+    <ClCompile Include="DiccionarioImp.cpp">
+      <Filter>Colecciones\Diccionario</Filter>
+    </ClCompile>
+    <ClCompile Include="ColaImp.cpp">
+      <Filter>Colecciones\Cola</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncAuxTAD.cpp">
+      <Filter>Framework\Auxiliar</Filter>
+    </ClCompile>
+    <ClCompile Include="IteradorListaOrdImp.cpp">
+      <Filter>Colecciones\Listas\ListaOrd</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaOrdImp.cpp">
+      <Filter>Colecciones\Listas\ListaOrd</Filter>
+    </ClCompile>
+    <ClCompile Include="IteradorListaPosImp.cpp">
+      <Filter>Colecciones\Listas\ListaPos</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaPosImp.cpp">
+      <Filter>Colecciones\Listas\ListaPos</Filter>
+    </ClCompile>
+    <ClCompile Include="IteradorListaOrdImp2.cpp">
+      <Filter>Colecciones\Listas\ListaOrd</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaOrdImp2.cpp">
+      <Filter>Colecciones\Listas\ListaOrd</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasEjemploDeUsoEntrega1.cpp">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasEjemploDeUsoEntrega2.cpp">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PruebasCorreccion.h">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasPropias.h">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClInclude>
+    <ClInclude Include="EstadisticaPrueba.h">
+      <Filter>Framework\Estadistica</Filter>
+    </ClInclude>
+    <ClInclude Include="ConductorPrueba.h">
+      <Filter>Framework\InterfazConductor</Filter>
+    </ClInclude>
+    <ClInclude Include="Prueba.h">
+      <Filter>Framework\InterfazPrueba</Filter>
+    </ClInclude>
+    <ClInclude Include="ManejadorImpresionPrueba.h">
+      <Filter>Framework\Manejadores</Filter>
+    </ClInclude>
+    <ClInclude Include="ManejadorSalidaPrueba.h">
+      <Filter>Framework\Manejadores</Filter>
+    </ClInclude>
+    <ClInclude Include="Asociacion.h">
+      <Filter>Clases auxiliares</Filter>
+    </ClInclude>
+    <ClInclude Include="Cadena.h">
+      <Filter>Clases auxiliares</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterable.h">
+      <Filter>Clases auxiliares</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterador.h">
+      <Filter>Clases auxiliares</Filter>
+    </ClInclude>
+    <ClInclude Include="Referencia.h">
+      <Filter>Clases auxiliares</Filter>
+    </ClInclude>
+    <ClInclude Include="Pila.h">
+      <Filter>Colecciones\Pila</Filter>
+    </ClInclude>
+    <ClInclude Include="ConductorPruebaObl2.h">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClInclude>
+    <ClInclude Include="Cola.h">
+      <Filter>Colecciones\Cola</Filter>
+    </ClInclude>
+    <ClInclude Include="Constantes.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="TipoRetorno.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ManejadorArchivos.h">
+      <Filter>Framework\Manejadores</Filter>
+    </ClInclude>
+    <ClInclude Include="Definiciones.h">
+      <Filter>Framework\Auxiliar</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncAux.h">
+      <Filter>Framework\Auxiliar</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaArray.h">
+      <Filter>Framework\Auxiliar</Filter>
+    </ClInclude>
+    <ClInclude Include="Entrega1.h">
+      <Filter>Entregas</Filter>
+    </ClInclude>
+    <ClInclude Include="Entrega2.h">
+      <Filter>Entregas</Filter>
+    </ClInclude>
+    <ClInclude Include="Defensa.h">
+      <Filter>Entregas</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasAuxDefensa.h">
+      <Filter>Pruebas Unitarias\Framework pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasAuxEntrega1.h">
+      <Filter>Pruebas Unitarias\Framework pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasAuxEntrega2.h">
+      <Filter>Pruebas Unitarias\Framework pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="Set.h">
+      <Filter>Colecciones\Set</Filter>
+    </ClInclude>
+    <ClInclude Include="SetImp.h">
+      <Filter>Colecciones\Set</Filter>
+    </ClInclude>
+    <ClInclude Include="Tabla.h">
+      <Filter>Colecciones\Tabla</Filter>
+    </ClInclude>
+    <ClInclude Include="TablaImp.h">
+      <Filter>Colecciones\Tabla</Filter>
+    </ClInclude>
+    <ClInclude Include="Diccionario.h">
+      <Filter>Colecciones\Diccionario</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiSetImp.h">
+      <Filter>Colecciones\MultiSet</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiSet.h">
+      <Filter>Colecciones\MultiSet</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaPrioridad.h">
+      <Filter>Colecciones\ColaPrioridad</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaPrioridadImp.h">
+      <Filter>Colecciones\ColaPrioridad</Filter>
+    </ClInclude>
+    <ClInclude Include="PilaImp.h">
+      <Filter>Colecciones\Pila</Filter>
+    </ClInclude>
+    <ClInclude Include="DiccionarioImp.h">
+      <Filter>Colecciones\Diccionario</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaImp.h">
+      <Filter>Colecciones\Cola</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncAuxTAD.h">
+      <Filter>Framework\Auxiliar</Filter>
+    </ClInclude>
+    <ClInclude Include="IteradorListaOrdImp.h">
+      <Filter>Colecciones\Listas\ListaOrd</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaOrd.h">
+      <Filter>Colecciones\Listas\ListaOrd</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaOrdImp.h">
+      <Filter>Colecciones\Listas\ListaOrd</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaPosImp.h">
+      <Filter>Colecciones\Listas\ListaPos</Filter>
+    </ClInclude>
+    <ClInclude Include="IteradorListaPosImp.h">
+      <Filter>Colecciones\Listas\ListaPos</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaPos.h">
+      <Filter>Colecciones\Listas\ListaPos</Filter>
+    </ClInclude>
+    <ClInclude Include="IteradorListaOrdImp2.h">
+      <Filter>Colecciones\Listas\ListaOrd</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaOrdImp2.h">
+      <Filter>Colecciones\Listas\ListaOrd</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasEjemploDeUsoEntrega1.h">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasEjemploDeUsoEntrega2.h">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoABB.h">
+      <Filter>Clases auxiliares</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoLista.h">
+      <Filter>Clases auxiliares</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Defensa.txt">
+      <Filter>Entregas</Filter>
+    </None>
+    <None Include="Entrega1.txt">
+      <Filter>Entregas</Filter>
+    </None>
+    <None Include="Entrega2.txt">
+      <Filter>Entregas</Filter>
+    </None>
+  </ItemGroup>
+</Project>
